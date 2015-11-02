@@ -251,12 +251,12 @@ public class ConfigParser {
 
 		if (url.getProtocol().equals("jar")) {
 			parseFromJarFile(url,path);
-		}
-		if (url.getProtocol().equals("file")) {
+		}else if (url.getProtocol().equals("file")) {
 			parseFromSysFile(url);
 		} else {
 			throw new FileNotFoundException("invalide path:" + path);
 		}
+		
 	}
 	
 	/**
@@ -279,7 +279,7 @@ public class ConfigParser {
 				JarEntry jarEntry = (JarEntry) jarEntrys.nextElement();
 				String entryName = jarEntry.getName();
 				
-				if(entryName.startsWith(path)){
+				if(entryName.startsWith(path)&&entryName.endsWith(".xml")){
 					URL _url = getClassLoader().getResource(jarEntry.getName());
 					parse(_url);
 				}
