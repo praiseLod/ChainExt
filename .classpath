@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_80"/>
+	<classpathentry kind="lib" path="/home/PraiseLod/Maven/ScriptTool/jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/PraiseLod/Maven/ScriptTool/jar/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/PraiseLod/Maven/ScriptTool/jar/commons-digester-2.1.jar" sourcepath="/home/PraiseLod/Maven/ScriptTool/source/commons-digester-2.1-sources.jar"/>
+	<classpathentry kind="lib" path="/home/PraiseLod/Maven/ScriptTool/jar/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/PraiseLod/Maven/ScriptTool/jar/portlet-api-2.0.jar"/>
+	<classpathentry kind="lib" path="/home/PraiseLod/Maven/ScriptTool/jar/javax.faces-api-2.2.jar"/>
+	<classpathentry kind="lib" path="/home/PraiseLod/Maven/ScriptTool/jar/common-util-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/PraiseLod/Maven/ScriptTool/jar/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/PraiseLod/Maven/ScriptTool/jar/commons-io-2.4.jar" sourcepath="/home/PraiseLod/Maven/ScriptTool/source/commons-io-2.4-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
