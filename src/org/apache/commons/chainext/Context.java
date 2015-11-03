@@ -60,7 +60,7 @@ import java.util.Map;
  * @version $Revision: 480477 $ $Date: 2006-11-29 08:34:52 +0000 (Wed, 29 Nov 2006) $
  */
 
-public interface Context extends Map{
+public interface Context<K,V> extends Map<K,V>{
 
 
 }
